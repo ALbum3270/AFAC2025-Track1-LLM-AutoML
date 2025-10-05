@@ -1,0 +1,104 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Environment Variables
+.env
+.env.local
+
+# Model Files (太大，不上传)
+autogluon_models/
+*.pkl
+*.pth
+*.h5
+*.model
+*.weights
+
+# Cache Files
+llm_cache/
+*.cache
+
+# Data Files (根据需要调整)
+*.csv
+!fund_apply_redeem_series.csv
+*.xlsx
+*.xls
+# 如果需要上传示例数据，可以排除某些文件：
+# !example_data.csv
+
+# Logs
+*.log
+logs/
+fund_prediction_enhanced.log
+
+# Backup Files
+*.backup
+*.bak
+*~
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Results
+predict_result.csv
+train_set.csv
+result.zip
+B榜*.csv
+比赛*.csv
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+
+# Competition Submission
+submission/
+*.zip
+*.docx
+!llm_record_template.md
+
+# 依赖和环境
+/venv/
+/env/
+/.venv/
+/.env/
+/node_modules/
+requirements-frozen.txt
+
